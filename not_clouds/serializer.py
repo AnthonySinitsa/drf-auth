@@ -6,7 +6,7 @@ class NotCloudSerializer(serializers.ModelSerializer):
     fields = (
       'id',
       'owner',
-      'title',
+      'name',
       'description',
       'created_at',
       'updated_at',
